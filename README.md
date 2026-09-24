@@ -1,5 +1,3 @@
-````markdown
-
 \# DevVault
 
 
@@ -46,7 +44,7 @@ It helps developers answer questions such as:
 
 devvault doctor
 
-````
+```
 
 
 
@@ -54,17 +52,17 @@ Checks the development environment for:
 
 
 
-\* Windows
+\- Windows
 
-\* PowerShell
+\- PowerShell
 
-\* PATH
+\- PATH
 
-\* .NET SDK
+\- .NET SDK
 
-\* Git
+\- Git
 
-\* Docker (optional)
+\- Docker (optional)
 
 
 
@@ -84,29 +82,29 @@ Analyzes the current project directory and detects:
 
 
 
-\* Project types
+\- Project types
 
-\* Frameworks
+\- Frameworks
 
-\* Multiple projects in one directory
+\- Multiple projects in one directory
 
-\* Git repository
+\- Git repository
 
-\* Solution files
+\- Solution files
 
-\* .NET project files
+\- .NET project files
 
-\* `package.json`
+\- `package.json`
 
-\* `requirements.txt`
+\- `requirements.txt`
 
-\* `pyproject.toml`
+\- `pyproject.toml`
 
-\* `.env`
+\- `.env`
 
-\* Dockerfile
+\- Dockerfile
 
-\* Project dependencies
+\- Project dependencies
 
 
 
@@ -134,11 +132,11 @@ Currently supported:
 
 
 
-\* C# / .NET
+\- C# / .NET
 
-\* Node.js / JavaScript
+\- Node.js / JavaScript
 
-\* Python
+\- Python
 
 
 
@@ -166,11 +164,11 @@ Currently supported ecosystems include:
 
 
 
-\* NuGet
+\- NuGet
 
-\* npm
+\- npm
 
-\* PyPI
+\- PyPI
 
 
 
@@ -244,17 +242,17 @@ Process: AgentService
 
 
 
-\* C#
+\- C#
 
-\* .NET 10
+\- .NET 10
 
-\* System.CommandLine
+\- System.CommandLine
 
-\* xUnit
+\- xUnit
 
-\* Windows APIs / system commands
+\- Windows APIs / system commands
 
-\* Git
+\- Git
 
 
 
@@ -306,11 +304,11 @@ The application uses separate services and analyzers so additional project types
 
 
 
-\* Windows
+\- Windows
 
-\* .NET 10 SDK
+\- .NET 10 SDK
 
-\* Git
+\- Git
 
 
 
@@ -432,25 +430,25 @@ Future versions may include:
 
 
 
-\* Dependency conflict detection
+\- Dependency conflict detection
 
-\* More accurate framework detection
+\- More accurate framework detection
 
-\* Better port/process diagnostics
+\- Better port/process diagnostics
 
-\* Development environment recommendations
+\- Development environment recommendations
 
-\* Safe automated fixes
+\- Safe automated fixes
 
-\* Project health summaries
+\- Project health summaries
 
-\* Additional language ecosystems
+\- Additional language ecosystems
 
-\* Configuration diagnostics
+\- Configuration diagnostics
 
-\* Docker environment analysis
+\- Docker environment analysis
 
-\* Exportable diagnostic reports
+\- Exportable diagnostic reports
 
 
 
@@ -471,42 +469,4 @@ DevVault aims to provide a single command-line interface for understanding the l
 
 
 This project is currently intended as a personal portfolio and learning project.
-
-
-
-````
-
-
-
-Save the file.
-
-
-
-Then run \*\*only these two commands\*\*:
-
-
-
-```cmd
-
-dotnet build
-
-````
-
-
-
-```cmd
-
-dotnet test
-
-```
-
-
-
-If both succeed, tell me \*\*`done`\*\*.
-
-
-
-We're getting close to the point where I'll tell you to make the \*\*first GitHub push for V0.1.0\*\*.
-
-
 
